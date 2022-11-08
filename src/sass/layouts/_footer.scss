@@ -39,17 +39,14 @@
 }
 
 .footer__navigation{
-    @include desktop {
-        display: flex;
-        flex-direction: column;
-    }
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__legal{
-    @include desktop {
-        display: flex;
-        flex-direction: column;
-    }
+    display: flex;
+    flex-direction: column;
+   
 
     h3.encuesta{
         margin-bottom: .5rem;

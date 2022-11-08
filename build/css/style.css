@@ -452,18 +452,14 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
-  .footer__navigation {
-    display: flex;
-    flex-direction: column;
-  }
+.footer__navigation {
+  display: flex;
+  flex-direction: column;
 }
 
-@media (min-width: 1024px) {
-  .footer__legal {
-    display: flex;
-    flex-direction: column;
-  }
+.footer__legal {
+  display: flex;
+  flex-direction: column;
 }
 .footer__legal h3.encuesta {
   margin-bottom: 0.5rem;
