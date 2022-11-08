@@ -1,0 +1,17 @@
+@use 'base/variables' as *;
+
+.button {
+    background-color: $color-primario;
+    color: $color-secundario;
+    border: none;
+    padding: 1rem 2rem;   
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    transition: background-color ease-in-out 200ms;
+
+    &:hover {
+        background-color: darken($color-primario,5);
+        cursor: pointer;
+    }
+
+}

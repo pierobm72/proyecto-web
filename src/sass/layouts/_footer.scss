@@ -1,0 +1,62 @@
+@use 'base' as *;
+.footer {
+    background-color: $color-secundario;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+    a {
+        color: $color-primario;
+        margin-bottom: .3rem;
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .copyright{
+        text-align: center;
+        font-size: 1.3rem;
+        color: $color-white;
+        background-color: $color-primario;
+        padding: 1rem;
+        margin-bottom: 0;
+    }
+   
+}
+
+.footer__contain{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    max-width: 80rem;
+
+    @include desktop {
+        @include grid(3, 2rem);
+    }
+}
+
+.footer__navigation{
+    @include desktop {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.footer__legal{
+    @include desktop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3.encuesta{
+        margin-bottom: .5rem;
+    }
+   
+}
+
+.footer__logo{
+    filter: invert(48%) sepia(79%) saturate(2%) hue-rotate(86deg) brightness(0%) contrast(119%);
+}

@@ -1,0 +1,10 @@
+@use 'base/variables' as *;
+
+body {
+    font-family: $fuente-principal;  
+    color: $color-black;  
+}
+
+a {
+    text-decoration: none;
+}
