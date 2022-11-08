@@ -2,8 +2,7 @@
 .footer {
     background-color: $color-secundario;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    margin-top: auto;
 
     a {
         color: $color-primario;
@@ -28,6 +27,7 @@
 }
 
 .footer__contain{
+    padding: 1rem;
     margin-right: auto;
     margin-left: auto;
     width: 80%;

@@ -317,6 +317,7 @@ a {
 
 body {
   font-family: "Bebas Neue", cursive;
+  min-height: 100vh;
 }
 
 /* primary header */
@@ -416,8 +417,7 @@ body {
 .footer {
   background-color: #e3ac26;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
 }
 .footer a {
   color: #c94527;
@@ -438,6 +438,7 @@ body {
 }
 
 .footer__contain {
+  padding: 1rem;
   margin-right: auto;
   margin-left: auto;
   width: 80%;
